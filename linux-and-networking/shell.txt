@@ -1,0 +1,24 @@
+1. cat seems like it's hanging because it is reading data from a file. However, without 
+a file give, it reads from standard input. It is attempting to interact with the user by just
+repeating the input back. 
+
+2. cat exits when ctrl-D is hit. If ctrl-d is hit after typting something in (without hitting enter before ctrl-d), then
+it will send whatever was typed to stdin (input stream) and write it back to stdout(output stream) before exiting. 
+The main purpose of this is to read data from the input file or input text and output it to stdout.
+
+Pipes:
+1. echo "1" > one.txt
+   echo "2" > two.txt
+   echo "3" > three.txt
+
+2. ls |sort -r
+
+3. cat | echo "hello world"
+
+4. echo hello world
+
+Standard Error:
+
+1. sorted.txt contains all of the files in the directory and their permissions which is just the regular output. 
+standard error would contain all of the error messages associated with the command or the errors that happen while the program is running.
+The redirect symbol only redirects standard output not standard error. 
