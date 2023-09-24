@@ -1,0 +1,30 @@
+Netcat:
+
+1. Error 400
+2. First, it says the input is OK. After this, it displays the date and time followed by
+a bunch of text including an expiration number, Cache-Control, and a lot of other information. The number
+4477 is displayed followed by a lot of information about google. Then the cursur hangs again after it is finished printing.  
+3. N/A
+4. SSH protocol because this protocol will allow two computers (ie. your base station and your robot) to communicate.
+
+Talking to your robot:
+1. 
+- Use the DNS protocol --> if you know the domain name/host name of your robot, you can look up the IP address based on that using the (local) DNS protocol.
+- You could theoretically use the DCHP. Essentially connect to the network and ask for an IP address so you don't need to know one intitially.
+- You can boot up your robot and then connect your base station to that network. Your robot is now the master network and you can get the ip address of the base station and then
+get the address of the robot. 
+- Assuming you have internet connection, at least one of these should work. 
+- You can also use the SSID to connect your robot to your basestation. 
+
+Look Ma no Internet:
+
+1. Your robot would be acting as the DHCP. Technically your robot is the DHCP server as it is asking the network for the IP addresses. 
+2. FILL IN AFTER FIRST BOOT
+3. You could use UDP by connecting each computer to a different port. 
+4.
+- SSH: you can use this protocol to allow two computers communicate. 
+- You could use an ethernet cable to connect two computers together
+- You could connect both computers to the same wifi which involve wireless signals
+
+ASK about talking to your robot section and Look ma no internet section. 
+
