@@ -15,6 +15,7 @@ To use these learning experiences do the following:
 
 ## Step 0 - Requirements
 
+<<<<<<< HEAD
 We assume here that you have already set up your Duckietown development environment 
 following the steps in the 
 [Laptop setup](https://docs.duckietown.com/daffy/opmanual-duckiebot/setup/setup_laptop/index.html) and [Accounts setup](https://docs.duckietown.com/daffy/opmanual-duckiebot/setup/setup_account/index.html)
@@ -25,6 +26,9 @@ sections of the of the Duckietown operation manual.
 absolute URL
 ```
 -->
+=======
+We assume here that you have already set up your Duckietown development environment following the [Laptop Setup steps](https://docs.duckietown.com/daffy/opmanual-duckiebot/setup/setup_laptop/index.html) of the Duckietown operation manual.
+>>>>>>> db18bbc62c4fd722fcb34fb570c76ee54e6624bf
 
 Add your `docker.io` credentials to `dts` by running the following command,
 
